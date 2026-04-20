@@ -77,7 +77,7 @@ class LoginForm extends Component {
           Acessar
         </button>
 
-        <p className={`mensagem ${status}`}>{mensagem}</p>
+        <label className={`mensagem ${status}`}>{mensagem}</label>
       </section>
     );
   }

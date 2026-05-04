@@ -35,4 +35,3 @@ Os workflows ficam na raiz do repositorio, em `.github/workflows/`, e usam esta 
 - **CI** (`ci.yml`): em cada push ou pull request para `main`, instala dependencias com `npm ci` e roda `npm run build` para validar o build de producao.
 - **CD** (`cd.yml`): no mesmo gatilho, repete o build e publica a pasta `dist` como artefato da execucao (entrega do pacote gerado).
 
-Abra a aba **Actions** no GitHub para ver o historico das execucoes.
